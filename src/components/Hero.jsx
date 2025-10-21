@@ -65,7 +65,7 @@ const Hero = ({ hasAnimated }) => {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center h-full flex flex-col justify-center">
         <div
-          className={`transition-all duration-1000 ${
+          className={`transition-all duration-1000  my-auto  ${
             hasAnimated.hero
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"

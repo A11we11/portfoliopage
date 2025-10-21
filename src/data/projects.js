@@ -3,7 +3,7 @@ export const projects = [
     title: "E-commerce Platform",
     description:
       "Modern e-commerce solution with React, Node.js, and Paypal integration. Features include user authentication, cart management, and admin dashboard.",
-    tech: ["React", "Node.js", "MongoDB", "Paypal", "TailwindCss"],
+    tech: ["React", "Node.js", "MongoDB", "Paypal", "TailwindCss", "Shadcn"],
     github: "https://github.com/A11we11/ecommerce",
     demo: "https://ecommerce-4d6f.vercel.app",
   },

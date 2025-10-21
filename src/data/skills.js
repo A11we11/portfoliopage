@@ -53,6 +53,7 @@ export const skills = [
       "React Testing Library",
       "Shadcn",
       "Redux and Redux ToolKit",
+      "postgreSql",
     ],
   },
 ];

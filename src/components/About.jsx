@@ -18,8 +18,9 @@ const About = ({ hasAnimated }) => {
     },
     {
       icon: <Palette className="w-8 h-8 mb-4 text-black" />,
-      title: "UI/UX Design",
-      description: "Creating intuitive interfaces with attention to detail",
+      title: "Accessibility",
+      description:
+        " building web experiences usable by everyone, including people with disabilities.",
     },
     {
       icon: <Smartphone className="w-8 h-8 mb-4 text-black" />,

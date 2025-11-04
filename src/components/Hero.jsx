@@ -50,7 +50,7 @@ const Hero = ({ hasAnimated }) => {
   return (
     <section
       className="relative h-screen flex items-center overflow-hidden justify-center 
- pt-20
+        mt-20 
     "
     >
       {/* Background Elements */}
@@ -88,10 +88,9 @@ const Hero = ({ hasAnimated }) => {
               I'm a{" "}
               <span className="relative">
                 <span className="text-blue-600 font-bold">
-                  {currentText}
+                  Frontend focused-[fullstack developer]
                   <span className="animate-pulse"></span>
                 </span>
-                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-500 to-pink-600"></span>
               </span>
             </h2>
           </div>
@@ -162,21 +161,6 @@ const Hero = ({ hasAnimated }) => {
               </div>
             ))}
           </div> */}
-          {/* scroll Indicator */}
-          <div className=" flex justify-center animate-bounce">
-            <button
-              onClick={scrollToAbout}
-              className="group flex flex-col items-center text-gray-600 hover:text-black transition-colors cursor-pointer"
-            >
-              <span className="text-sm mb-2 ">Learn More</span>
-              <ArrowDown
-                className="w-6 h-6 group-hover:transform 
-              group-hover:translate-y-1    
-              transition-transform
-              "
-              />
-            </button>
-          </div>
         </div>
       </div>
       {/* Floating Elements */}

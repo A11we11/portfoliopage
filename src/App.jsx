@@ -6,7 +6,6 @@ import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 import Skills from "./components/Skills";
-import StarBackground from "./components/StarBackground";
 import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
 import { useScrollToTop } from "./hooks/useScrollToTop";
 
@@ -15,8 +14,7 @@ function App() {
   const showScrollTop = useScrollToTop();
 
   return (
-    <div className="min-h-screen  text-foreground bg-background">
-      <StarBackground />
+    <div className="min-h-screen  text-foreground bg-background font-inconsolata  ">
       <Navigation />
       <Hero hasAnimated={hasAnimated} />
       <About hasAnimated={hasAnimated} />

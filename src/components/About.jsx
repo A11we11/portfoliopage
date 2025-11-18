@@ -50,12 +50,6 @@ const About = ({ hasAnimated }) => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-700 mb-6">
-                {/*  I specialize in creating responsive , accessible , and
-                performant web applications using modern technologies. I
-                understand the basics of backend development with Express, and
-                MongoDB, enabling me to work on both client and server sides of
-                an application.,I create stellar web experiences with modern
-                technologies, */}{" "}
                 I'm Passionate about creating elegant solutions to complex
                 problems, and I'm constantly learning new technologies and
                 techniques to stay at the forefront of the ever-evolving web

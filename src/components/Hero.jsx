@@ -88,7 +88,7 @@ const Hero = ({ hasAnimated }) => {
               I'm a{" "}
               <span className="relative">
                 <span className="text-blue-600 font-bold">
-                  Frontend focused-[fullstack developer]
+                  Frontend Developer
                   <span className="animate-pulse"></span>
                 </span>
               </span>
